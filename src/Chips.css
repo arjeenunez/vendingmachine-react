@@ -1,0 +1,44 @@
+.Chips {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Chips div {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+}
+
+.Chips a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.Chips a:hover {
+    text-decoration: underline;
+}
+
+.Chips button {
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    /* appearance: none; */
+    /* background-color: white;
+    border: none; */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.Chips img {
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+}

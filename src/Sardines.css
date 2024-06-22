@@ -1,0 +1,32 @@
+.Sardines {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-image: url("https://i.gifer.com/9Ieq.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Sardines div {
+    margin-top: 75px;
+    /* margin-top: 100px; */
+    background-color: black;
+    width: 30%;
+    height: 200px;
+}
+
+.Sardines a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.Sardines a:hover {
+    text-decoration: underline;
+}
